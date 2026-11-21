@@ -1,0 +1,19 @@
+# Python 虚拟环境：可以根据 pyproject.toml 重新安装，不提交到 Git
+.venv/
+
+# Python 自动生成的缓存和字节码
+__pycache__/
+*.py[cod]
+
+# 安装项目时自动生成的包元数据
+*.egg-info/
+build/
+dist/
+
+# 本地环境变量文件：可能包含密钥或个人配置
+.env
+.env.*
+
+# 系统自动生成的文件
+.DS_Store
+Thumbs.db

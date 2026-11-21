@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ko-derivatives"
+version = "0.1.0"
+description = "KO derivative pricing for MFE5130"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "matplotlib",
+]
+
+[tool.setuptools]
+py-modules = []
