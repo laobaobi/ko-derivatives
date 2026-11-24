@@ -14,6 +14,9 @@ dist/
 .env
 .env.*
 
+# 本地课程数据与说明
+/data/
+
 # 系统自动生成的文件
 .DS_Store
 Thumbs.db
